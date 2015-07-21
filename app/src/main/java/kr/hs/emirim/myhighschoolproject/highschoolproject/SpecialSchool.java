@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -151,6 +152,7 @@ public class SpecialSchool extends Activity {
         boolean name = false;
         boolean foreign=false, science=false, meister=false, art=false;
         boolean bList = false;
+        int temp = 0;
 
         try {
             int eventType = parser.getEventType();
@@ -165,11 +167,11 @@ public class SpecialSchool extends Activity {
 
                     if(tag_name.equals("schoolName")) {
                         name = true;
-
                     }
 
                 } else if (eventType == XmlPullParser.TEXT) {
                     String data = parser.getText();
+
 
                     if(bList){
                         if(data.equals("과학고") || data.equals("영재고"))
