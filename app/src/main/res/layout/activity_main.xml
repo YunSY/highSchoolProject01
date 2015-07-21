@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="5"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:gravity="center"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/but_special"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="selectSchool"
+                android:text="특목고"
+                />
+            <Button
+                android:id="@+id/but_major"
+                android:layout_toRightOf="@id/but_special"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:onClick="selectSchool"
+                android:text="특성화고"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+
+            <Button
+                android:id="@+id/but_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="selectSchool"
+                android:text="자율고"
+                />
+            <Button
+                android:id="@+id/but_general"
+                android:layout_toRightOf="@id/but_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:onClick="selectSchool"
+                android:text="일반고"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="20dp"
+        android:paddingTop="20dp"
+        android:fadingEdgeLength="0px"
+        android:clickable="true"
+        android:onClick="startMap"
+        android:text="지 도"
+        />
+
+</LinearLayout>
