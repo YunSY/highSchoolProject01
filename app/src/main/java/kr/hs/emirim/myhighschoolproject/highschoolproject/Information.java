@@ -40,7 +40,7 @@ public class Information extends Activity {
     private String data_link;
 
     private TextView nameTv, addressTv, majorTv;
-    ImageButton linkBut;
+    private ImageButton linkBut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +73,7 @@ public class Information extends Activity {
 
         int type = 0;
         boolean bSet = false;
-        //boolean link = false, region = false, address = false, major = false;
+        boolean link = false, region = false, address = false, major = false;
         boolean allSet = false;
         boolean info = false;
 
@@ -87,7 +87,7 @@ public class Information extends Activity {
 
                     if(tag_name.equals("schoolName")){
                         bSet = true;
-                    }/*else if(tag_name.equals("link")){
+                    }else if(tag_name.equals("link")){
                         link = true;
                     }else if(tag_name.equals("region")){
                         region = true;
@@ -95,20 +95,18 @@ public class Information extends Activity {
                         address = true;
                     }else if(tag_name.equals("major")){
                         major = true;
-                    }*/
+                    }
 
-                    if(tag_name.equals("link") || tag_name.equals("region")
+                   /* if(tag_name.equals("link") || tag_name.equals("region")
                             || tag_name.equals("address") || tag_name.equals("major")){
                         info = true;
-                    }
+                    }*/
 
 
                 } else if (eventType == XmlPullParser.TEXT) {
-
-                    String tag_name = parser.getName();
-
+                    String data = parser.getText();
                     if(bSet){
-                        String data = parser.getText();
+
                         if(data.equals(name)) {
                             allSet = true;
                         }
@@ -117,9 +115,10 @@ public class Information extends Activity {
                         }
                         bSet = false;
                     }
-                    if(allSet && info) {
-                        String data = parser.getText();
-                        if (tag_name.equals("address")) {
+                    if(allSet) {
+                        ///String tag_name = parser.getName();
+                        //String data2 = parser.getText();
+                        /*if (tag_name.equals("address")) {
                             addressTv.append(data);
                         } else if (tag_name.equals("link")) {
                             data_link = data;
@@ -129,11 +128,9 @@ public class Information extends Activity {
                             } else {
                                 majorTv.append(data);
                             }
-                        }
-                        info = false;
+                        }*/
+                        //info = false;
 
-
-                        /*String data = null;
                         if(address){
                             data = parser.getText();
                             addressTv.append(data);
@@ -151,7 +148,7 @@ public class Information extends Activity {
                             data = parser.getText();
                             data_link = data;
                             link = false;
-                        }*/
+                        }
 
                         allSet = false;
 

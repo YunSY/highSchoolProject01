@@ -1262,7 +1262,175 @@
         <major>null</major>
     </content>
 
+    <content>
+        <id>141001</id>
+        <schoolType>과학고</schoolType>
+        <schoolName>제주과학고등학교</schoolName>
+        <link>www.jeju-s.hs.kr</link>
+        <region>제주</region>
+        <address>제주 제주시 산록북로 421-1 제주과학고등학교</address>
+        <major>null</major>
+    </content>
 
+    <content>
+        <id>143001</id>
+        <schoolType>외국어고</schoolType>
+        <schoolName>제주외국어고등학교</schoolName>
+        <link>www.jejufl.hs.kr</link>
+        <region>제주</region>
+        <address>제주 제주시 애월읍 고성남길 34</address>
+        <major>영어과, 스페인어과, 중국어과, 일본어과</major>
+    </content>
+
+    <content>
+        <id>151001</id>
+        <schoolType>과학고</schoolType>
+        <schoolName>충남과학고등학교</schoolName>
+        <link>www.cnsh.cnehs.kr</link>
+        <region>충남</region>
+        <address>충남 공주시 반포면 금벽로 1351-15 충남과학고등학교</address>
+        <major>null</major>
+    </content>
+
+    <content>
+        <id>152001</id>
+        <schoolType>마이스터고</schoolType>
+        <schoolName>공주마이스터고등학교</schoolName>
+        <link>www.gong.cnehs.kr</link>
+        <region>충남</region>
+        <address>충남 공주시 유구읍 중앙1길 17-12</address>
+        <major>SMT과</major>
+    </content>
+
+    <content>
+        <id>152002</id>
+        <schoolType>마이스터고</schoolType>
+        <schoolName>연무대기계공업고등학교</schoolName>
+        <link>www.yeonmutech.cnehs.kr</link>
+        <region>충남</region>
+        <address>충남 논산시 연무읍 연무로 268-9</address>
+        <major>자동차금형과, 자동차소재가공과, 자동차전장제어과</major>
+    </content>
+
+    <content>
+        <id>152003</id>
+        <schoolType>마이스터고</schoolType>
+        <schoolName>한국식품마이스터고등학교</schoolName>
+        <link>www.cff.cnehs.kr</link>
+        <region>충남</region>
+        <address>충청남도 부여군 홍산면 홍산로 112-23 (충남발효식품고등학교)</address>
+        <major>전통발효식품과, 발효제품가공과, 발효미생물과</major>
+    </content>
+
+    <content>
+        <id>152004</id>
+        <schoolType>마이스터고</schoolType>
+        <schoolName>합덕제철고등학교</schoolName>
+        <link>www.steel.cnehs.kr</link>
+        <region>충남</region>
+        <address>충청남도 당진시 합덕읍 면천로 1601</address>
+        <major>철강기계과, 철강자동화과</major>
+    </content>
+
+    <content>
+        <id>153001</id>
+        <schoolType>외국어고</schoolType>
+        <schoolName>충남외국어고등학교</schoolName>
+        <link>www.cnfl.cnehs.kr</link>
+        <region>충남</region>
+        <address>충남 아산시 탕정면 탕정면로 53-60</address>
+        <major>영어과, 중국어과, 일본어과, 베트남어과</major>
+    </content>
+
+    <content>
+        <id>154001</id>
+        <schoolType>예술고</schoolType>
+        <schoolName>충남예술고등학교</schoolName>
+        <link>www.cna.caehs.kr</link>
+        <region>충남</region>
+        <address>충청남도 천안시 성거읍 천흥리</address>
+        <major>음악과, 미술과, 무용과</major>
+    </content>
+
+    <content>
+        <id>154002</id>
+        <schoolType>체육고</schoolType>
+        <schoolName>충남체육고등학교</schoolName>
+        <link>www.cnche.cnehs.kr</link>
+        <region>충남</region>
+        <address>충남 논산시 체육로 82 충남체육고등학교</address>
+        <major>null</major>
+    </content>
+
+    <content>
+        <id>161001</id>
+        <schoolType>과학고</schoolType>
+        <schoolName>충북과학고등학교</schoolName>
+        <link>www.cbs.hs.kr</link>
+        <region>충북</region>
+        <address>충북 청주시 상당구 가덕면 상야리</address>
+        <major>null</major>
+    </content>
+
+    <content>
+        <id>162001</id>
+        <schoolType>마이스터고</schoolType>
+        <schoolName>충북반도체고등학교</schoolName>
+        <link>www.cbsemi.hs.kr</link>
+        <region>충북</region>
+        <address>충북 음성군 금왕읍 무극로 393-1</address>
+        <major>반도체과</major>
+    </content>
+
+    <content>
+        <id>162002</id>
+        <schoolType>마이스터고</schoolType>
+        <schoolName>충북에너지고등학교</schoolName>
+        <link>www.cbenergy.hs.kr</link>
+        <region>충북</region>
+        <address>충북 청원군 미원면 미원초정로 27</address>
+        <major>이차전지과, 태양전지과</major>
+    </content>
+
+    <content>
+        <id>162003</id>
+        <schoolType>마이스터고</schoolType>
+        <schoolName>한국바이오마이스터고등학교</schoolName>
+        <link>www.kbm.hs.kr</link>
+        <region>충북</region>
+        <address>충북 진천군 진천읍 남산4길 13</address>
+        <major>바이오식품과, 바이오제약과</major>
+    </content>
+
+    <content>
+        <id>163001</id>
+        <schoolType>외국어고</schoolType>
+        <schoolName>청주외국어고등학교</schoolName>
+        <link>www.cfl.hs.kr</link>
+        <region>충북</region>
+        <address>충북 청주시 흥덕구 장구봉로 107 청주외국어고등학교</address>
+        <major>영어과, 독일어과, 프랑스어과, 스페인어과, 중국어과, 일본어과, 러시아어과</major>
+    </content>
+
+    <content>
+        <id>164001</id>
+        <schoolType>예술고</schoolType>
+        <schoolName>충북예술고등학교</schoolName>
+        <link>www.cbart.hs.kr</link>
+        <region>충북</region>
+        <address>충북 청주시 흥덕구 서부로 1185 충북예술고등학교</address>
+        <major>음악과, 무용과, 미술과</major>
+    </content>
+
+    <content>
+        <id>164002</id>
+        <schoolType>체육고</schoolType>
+        <schoolName>충북체육고등학교</schoolName>
+        <link>www.cbp.hs.kr</link>
+        <region>충북</region>
+        <address>충북 진천군 문백면 도하3길 120 충북체육고등학교</address>
+        <major>null</major>
+    </content>
 
 
 </students>

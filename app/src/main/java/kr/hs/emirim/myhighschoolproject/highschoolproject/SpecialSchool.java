@@ -2,7 +2,6 @@ package kr.hs.emirim.myhighschoolproject.highschoolproject;
 //특목고 Activity
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.XmlResourceParser;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -50,7 +49,6 @@ public class SpecialSchool extends Activity {
 
         //new DownloadWepPage().execute(url);
         xmlParsing();
-
 
         Adapter1 = new ArrayAdapter<String>(SpecialSchool.this, android.R.layout.simple_expandable_list_item_1, list_foreign);
         Adapter2 = new ArrayAdapter<String>(SpecialSchool.this, android.R.layout.simple_expandable_list_item_1, list_science);
@@ -146,7 +144,7 @@ public class SpecialSchool extends Activity {
     }
 
     public void xmlParsing() {
-        XmlResourceParser parser = null;
+        XmlPullParser parser = null;
         parser = getResources().getXml(R.xml.students);
 
         int type = 0;
