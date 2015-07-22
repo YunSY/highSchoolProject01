@@ -2,10 +2,12 @@ package kr.hs.emirim.myhighschoolproject.highschoolproject;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.content.res.XmlResourceParser;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -41,6 +43,7 @@ public class Information extends Activity {
 
     private TextView nameTv, addressTv, majorTv;
     private ImageButton linkBut;
+    private String personXMLString;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,11 +63,11 @@ public class Information extends Activity {
         xmlParsing(name);
         //new DownloadWepPage().execute(url);
 
-
     }
 
+
     public void startUrl(View v){
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://"+data_link)));
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://" + data_link)));
     }
 
     public void xmlParsing(String name) {
@@ -78,6 +81,8 @@ public class Information extends Activity {
         boolean info = false;
 
         try {
+
+
             int eventType = parser.getEventType();
             while (eventType != XmlPullParser.END_DOCUMENT) {
                 if (eventType == XmlPullParser.START_DOCUMENT) {
@@ -124,7 +129,7 @@ public class Information extends Activity {
                             data_link = data;
                         } else if (tag_name.equals("major")) {
                             if (data.equals("null")) {
-                                majorTv.append("¡§∫∏ æ¯¿Ω");
+                                majorTv.append("Ï†ïÎ≥¥ ÏóÜÏùå");
                             } else {
                                 majorTv.append(data);
                             }
@@ -138,7 +143,7 @@ public class Information extends Activity {
                         }else if(major){
                             data = parser.getText();
                             if(data.equals("null")){
-                                majorTv.append("¡§∫∏ æ¯¿Ω");
+                                majorTv.append("Ï†ïÎ≥¥ ÏóÜÏùå");
                             }else {
                                 data = parser.getText();
                                 majorTv.append(data);
@@ -168,6 +173,22 @@ public class Information extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private String getXMLFileFromAssets() throws IOException {
+
+        AssetManager assetManager = getResources().getAssets();
+        AssetManager.AssetInputStream ais = (AssetManager.AssetInputStream)assetManager.open("students.xml");
+        BufferedReader br = new BufferedReader(new InputStreamReader(ais));
+
+        String line;
+        StringBuilder data = new StringBuilder();
+        while((line=br.readLine()) != null)
+            data.append(line);
+        Log.i("getXML", data.toString());
+
+        return data.toString();
+
     }
 
     /*class DownloadWepPage extends AsyncTask<String, Void, String> {
