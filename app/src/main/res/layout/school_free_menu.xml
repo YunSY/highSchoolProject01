@@ -20,7 +20,9 @@
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"></TabWidget>
+                android:layout_height="wrap_content"
+                android:background="#589cd0"
+                ></TabWidget>
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
@@ -31,13 +33,29 @@
                     android:id="@+id/free_private"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/list_private"
+                        android:clickable="true"
+                        />
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/free_public"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/list_public"
+                        android:clickable="true"
+                        />
+                </LinearLayout>
 
 
             </FrameLayout>

@@ -5,28 +5,18 @@ import android.content.Intent;
 import android.content.res.AssetManager;
 import android.content.res.XmlResourceParser;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
-import org.xmlpull.v1.XmlPullParserFactory;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.StringReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 
 public class Information extends Activity {
@@ -72,7 +62,7 @@ public class Information extends Activity {
 
     public void xmlParsing(String name) {
         XmlResourceParser parser = null;
-        parser = getResources().getXml(R.xml.students);
+        parser = getResources().getXml(R.xml.special);
 
         int type = 0;
         boolean bSet = false;
@@ -175,21 +165,7 @@ public class Information extends Activity {
         }
     }
 
-    private String getXMLFileFromAssets() throws IOException {
 
-        AssetManager assetManager = getResources().getAssets();
-        AssetManager.AssetInputStream ais = (AssetManager.AssetInputStream)assetManager.open("students.xml");
-        BufferedReader br = new BufferedReader(new InputStreamReader(ais));
-
-        String line;
-        StringBuilder data = new StringBuilder();
-        while((line=br.readLine()) != null)
-            data.append(line);
-        Log.i("getXML", data.toString());
-
-        return data.toString();
-
-    }
 
     /*class DownloadWepPage extends AsyncTask<String, Void, String> {
         String page = "";

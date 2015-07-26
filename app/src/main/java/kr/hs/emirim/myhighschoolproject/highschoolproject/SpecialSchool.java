@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -72,6 +71,7 @@ public class SpecialSchool extends Activity {
             LinearLayout relLayout = (LinearLayout) tabHost.getTabWidget().getChildAt(i);
             TextView tv = (TextView) relLayout.getChildAt(1);
             tv.setTextColor(Color.parseColor("#FFFFFF"));
+            tv.setTextSize(13.0f);
         }
 
 
@@ -146,7 +146,7 @@ public class SpecialSchool extends Activity {
 
     public void xmlParsing() {
         XmlPullParser parser = null;
-        parser = getResources().getXml(R.xml.students);
+        parser = getResources().getXml(R.xml.special);
 
         int type = 0;
         boolean name = false;
