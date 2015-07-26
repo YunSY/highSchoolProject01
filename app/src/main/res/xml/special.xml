@@ -233,6 +233,16 @@
 
     <content>
         <id>024004</id>
+        <schoolType>예술고</schoolType>
+        <schoolName>안양예술고등학교</schoolName>
+        <link>www.anyangart.hs.kr</link>
+        <region>경기</region>
+        <address>경기 안양시 만안구 양화로25번길 40 안양예술고등학교</address>
+        <major>연극영화과, 사진영상과, 무용과, 미술과, 문예창작과, 음악과</major>
+    </content>
+
+    <content>
+        <id>024005</id>
         <schoolType>체육고</schoolType>
         <schoolName>경기체육고등학교</schoolName>
         <link>www.gg-ph.hs.kr</link>

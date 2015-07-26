@@ -29,6 +29,7 @@
                 android:onClick="selectSchool"
                 android:text="특목고"
                 android:background="#589cd0"
+
                 />
             <Button
                 android:id="@+id/but_major"
