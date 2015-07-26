@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<free>
+
+    <content>
+        <id>015001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>민족사관고등학교</schoolName>
+        <link>www.minjok.hs.kr</link>
+        <region>강원</region>
+        <address>강원도 횡성군 안흥면 소사리 1300 민족사관고등학교</address>
+    </content>
+
+    <content>
+        <id>025001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>안산동산고등학교</schoolName>
+        <link>www.dsgo.kr</link>
+        <region>경기</region>
+        <address>경기도 안산시 상록구 충장로 56 안산동산고등학교</address>
+    </content>
+
+    <content>
+        <id>025002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>한국외국어대학교부속용인외국어고등학교</schoolName>
+        <link>www.hafs.hs.kr</link>
+        <region>경기</region>
+        <address>경기도 용인시 처인구 모현면 외대로54번길 50 외대부고</address>
+    </content>
+
+    <content>
+        <id>035001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>경일여자고등학교</schoolName>
+        <link>www.kyungil-g.hs.kr</link>
+        <region>경남</region>
+        <address>경상남도 창원시 성산구 두대로 163 경일여자고등학교</address>
+    </content>
+
+    <content>
+        <id>045001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>김천고등학교</schoolName>
+        <link>www.gimcheon.hs.kr</link>
+        <region>경북</region>
+        <address>경상북도 김천시 송설로 90</address>
+    </content>
+
+    <content>
+        <id>045002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>포항제철고등학교</schoolName>
+        <link>www.pocheol.hs.kr</link>
+        <region>경북</region>
+        <address>경상북도 포항시 남구 지곡로212번길 40 포항제철고등학교</address>
+    </content>
+
+    <content>
+        <id>055001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>보문고등학교</schoolName>
+        <link>www.bomun.hs.kr</link>
+        <region>광주</region>
+        <address>광주광역시 광산구 어등대로529번길 37</address>
+    </content>
+
+    <content>
+        <id>055002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>송원고등학교</schoolName>
+        <link>www.songwon.hs.kr</link>
+        <region>광주</region>
+        <address>광주광역시 남구 송암로 73</address>
+    </content>
+
+    <content>
+        <id>055003</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>숭덕고등학교</schoolName>
+        <link>www.sdok.hs.kr</link>
+        <region>광주</region>
+        <address>광주광역시 광산구 월계로 117-8</address>
+    </content>
+
+    <content>
+        <id>065001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>경신고등학교</schoolName>
+        <link>www.gyeongsin.hs.kr</link>
+        <region>대구</region>
+        <address>대구광역시 수성구 달구벌대로504길 34 경신고등학교</address>
+    </content>
+
+    <content>
+        <id>065002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>계성고등학교</schoolName>
+        <link>www.keisung.hs.kr</link>
+        <region>대구</region>
+        <address>대구광역시 중구 달성로 35 계성중고등학교</address>
+    </content>
+
+    <content>
+        <id>065003</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>대건고등학교</schoolName>
+        <link>www.daegun.hs.kr</link>
+        <region>대구</region>
+        <address>대구광역시 달서구 월곡로94길 46 대건고등학교</address>
+    </content>
+
+    <content>
+        <id>075001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>대성고등학교</schoolName>
+        <link>www.daeseong.hs.kr</link>
+        <region>대전</region>
+        <address>대전광역시 중구 목동로 23</address>
+    </content>
+
+    <content>
+        <id>075002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>서대전여자고등학교</schoolName>
+        <link>www.seodaejon.hs.kr</link>
+        <region>대전</region>
+        <address>대전광역시 서구 배재로197번길 20 서대전여자고등학교</address>
+    </content>
+
+    <content>
+        <id>085001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>동래여자고등학교</schoolName>
+        <link>www.dongnae-gh.hs.kr</link>
+        <region>부산</region>
+        <address>부산광역시 금정구 체육공원로 20 동래여고</address>
+    </content>
+
+    <content>
+        <id>085002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>해운대고등학교</schoolName>
+        <link>www.haeundae.hs.kr</link>
+        <region>부산</region>
+        <address>부산광역시 해운대구 우동3로11번길 43 해운대고등학교</address>
+    </content>
+
+    <content>
+        <id>095001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>경문고등학교</schoolName>
+        <link>www.kyungmoon.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 동작구 동작대로 171 경문고등학교</address>
+    </content>
+
+    <content>
+        <id>095002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>경희고등학교</schoolName>
+        <link>www.kyungheeboy.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 동대문구 경희대로6길 7-13 경희대학교</address>
+    </content>
+
+    <content>
+        <id>095003</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>대광고등학교</schoolName>
+        <link>www.dgh.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 동대문구 안암로 6 대광고등학교</address>
+    </content>
+
+    <content>
+        <id>095004</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>대성고등학교</schoolName>
+        <link>www.dae-sung.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 은평구 갈현로29길 51-24</address>
+    </content>
+
+    <content>
+        <id>095005</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>동성고등학교</schoolName>
+        <link>www.dongsung.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 종로구 대학로 156 동성중고교</address>
+    </content>
+
+    <content>
+        <id>095006</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>동양고등학교</schoolName>
+        <link>www.dongyang.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 강서구 허준로 50 동양고등학교</address>
+    </content>
+
+    <content>
+        <id>095007</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>배재고등학교</schoolName>
+        <link>www.paichai.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 강동구 고덕로 227 배재중,고등학교</address>
+    </content>
+
+    <content>
+        <id>095008</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>보인고등학교</schoolName>
+        <link>www.boin.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 송파구 오금로49길 18 보인중고등학교</address>
+    </content>
+
+    <content>
+        <id>095009</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>상암고등학교</schoolName>
+        <link>www.sangam.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 마포구 월드컵북로 445 상암고등학교</address>
+    </content>
+
+    <content>
+        <id>095010</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>서울여자고등학교</schoolName>
+        <link>www.seoulgs.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 마포구 백범로25길 34 서울여자중고등학교</address>
+    </content>
+
+    <content>
+        <id>095011</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>선덕고등학교</schoolName>
+        <link>www.sunduck.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 도봉구 시루봉로 53 선덕고등학교</address>
+    </content>
+
+    <content>
+        <id>095012</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>세화고등학교</schoolName>
+        <link>www.se-hwa.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 서초구 신반포로 56-7 세화고등학교</address>
+    </content>
+
+    <content>
+        <id>095013</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>세화여자고등학교</schoolName>
+        <link>www.sehwa-gs.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 서초구 신반포로 56-7 세화여자고등학교</address>
+    </content>
+
+    <content>
+        <id>095014</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>숭문고등학교</schoolName>
+        <link>www.soongmoon.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 마포구 숭문길 99 숭문중고등학교</address>
+    </content>
+
+    <content>
+        <id>095015</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>신일고등학교</schoolName>
+        <link>www.shin-il.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 강북구 솔매로49길 20 신일중고등학교</address>
+    </content>
+
+    <content>
+        <id>095016</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>양정고등학교</schoolName>
+        <link>www.yangchung.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 양천구 안양천로 1039 양정고등학교</address>
+    </content>
+
+    <content>
+        <id>095017</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>용문고등학교</schoolName>
+        <link>www.ymoon.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 성북구 인촌로17가길 46 용문고등학교</address>
+    </content>
+
+    <content>
+        <id>095018</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>우신고등학교</schoolName>
+        <link>www.wooshin.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 구로구 부일로 917 우신고등학교</address>
+    </content>
+
+    <content>
+        <id>095019</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>이화여자고등학교</schoolName>
+        <link>www.ewha.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 중구 정동길 26 심슨기념관</address>
+    </content>
+
+    <content>
+        <id>095020</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>이화여자대학교사범대학부속이화금란고등학교</schoolName>
+        <link>www.edaebugo.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 서대문구 성산로 560 이대부속고등학교</address>
+    </content>
+
+    <content>
+        <id>095021</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>장훈고등학교</schoolName>
+        <link>www.janghoon.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 영등포구 영등포로64길 26 장훈고등학교</address>
+    </content>
+
+    <content>
+        <id>095022</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>중동고등학교</schoolName>
+        <link>www.joongdong.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 강남구 일원로 7 중동고등학교</address>
+    </content>
+
+    <content>
+        <id>095023</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>중앙고등학교</schoolName>
+        <link>www.choongang.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 종로구 창덕궁길 164 중앙고등학교</address>
+    </content>
+
+    <content>
+        <id>095024</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>한가람고등학교</schoolName>
+        <link>www.hangaram.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 양천구 목동서로 15 한가람고등학교</address>
+    </content>
+
+    <content>
+        <id>095025</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>한양사대부속고등학교</schoolName>
+        <link>www.hanyang-u.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 성동구 마조로 42 한양대사범대학</address>
+    </content>
+
+    <content>
+        <id>095026</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>현대고등학교</schoolName>
+        <link>www.hyundai.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 강남구 압구정로 127 현대고등학교</address>
+    </content>
+
+    <content>
+        <id>095027</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>휘문고등학교</schoolName>
+        <link>www.whimoon.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 강남구 역삼로 541 휘문중고등학교</address>
+    </content>
+
+    <content>
+        <id>095028</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 공립고</seperate>
+        <schoolName>구현고등학교</schoolName>
+        <link>www.guhyun.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 구로구 경인로53가길 17 구현고등학교</address>
+    </content>
+
+    <content>
+        <id>095029</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 공립고</seperate>
+        <schoolName>당곡고등학교</schoolName>
+        <link>www.danggok.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 관악구 봉천로21길 108 당곡고등학교</address>
+    </content>
+
+    <content>
+        <id>095030</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 공립고</seperate>
+        <schoolName>도봉고등학교</schoolName>
+        <link>www.db2004.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 도봉구 도봉산길 27 도봉고등학교</address>
+    </content>
+
+    <content>
+        <id>095031</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 공립고</seperate>
+        <schoolName>등촌고등학교</schoolName>
+        <link>www.dch.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 강서구 공항대로39길 115 등촌고등학교</address>
+    </content>
+
+    <content>
+        <id>095032</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 공립고</seperate>
+        <schoolName>성동고등학교</schoolName>
+        <link>www.sungdong.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 중구 퇴계로90길 17 성동고등학교</address>
+    </content>
+
+    <content>
+        <id>095033</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 공립고</seperate>
+        <schoolName>수락고등학교</schoolName>
+        <link>www.surak.net</link>
+        <region>서울</region>
+        <address>서울특별시 노원구 동일로245길 143 수락고등학교</address>
+    </content>
+
+    <content>
+        <id>095034</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 공립고</seperate>
+        <schoolName>원묵고등학교</schoolName>
+        <link>www.wonmook.hs.kr</link>
+        <region>서울</region>
+        <address>서울특별시 중랑구 숙선옹주로 82 원묵고등학교</address>
+    </content>
+
+    <content>
+        <id>105001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>성신고등학교</schoolName>
+        <link>www.sungshin-us.hs.kr</link>
+        <region>울산</region>
+        <address>울산광역시 중구 성신고교길 26 성신고등학교</address>
+    </content>
+
+    <content>
+        <id>105002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>현대청운고등학교</schoolName>
+        <link>www.hcu.hs.kr</link>
+        <region>울산</region>
+        <address>울산광역시 동구 방어진순환도로 1077 현대청운고등학교</address>
+    </content>
+
+    <content>
+        <id>115001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>인천하늘고등학교</schoolName>
+        <link>www.haneul.hs.kr</link>
+        <region>인천</region>
+        <address>인천광역시 중구 영종대로277번길 117</address>
+    </content>
+
+    <content>
+        <id>125001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>광양제철고등학교</schoolName>
+        <link>gwangcheol.hs.jne.kr</link>
+        <region>전남</region>
+        <address>전라남도 광양시 마로니에길 61 광양제철고등학교</address>
+    </content>
+
+    <content>
+        <id>135001</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>군산중앙고등학교</schoolName>
+        <link>www.gs-jungang.hs.kr</link>
+        <region>전북</region>
+        <address>전라북도 군산시 성산면 군장대길 13 군장대학</address>
+    </content>
+
+    <content>
+        <id>135002</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>남성고등학교</schoolName>
+        <link>www.namsung.hs.kr</link>
+        <region>전북</region>
+        <address>전라북도 익산시 동서로35길 41 남성중학교</address>
+    </content>
+
+    <content>
+        <id>135003</id>
+        <schoolType>자율고</schoolType>
+        <seperate>자율형 사립고</seperate>
+        <schoolName>상산고등학교</schoolName>
+        <link>www.jb-sangsan.hs.kr</link>
+        <region>전북</region>
+        <address>전라북도 전주시 완산구 거마평로 130 상산고등학교</address>
+    </content>
+
+
+</free>
