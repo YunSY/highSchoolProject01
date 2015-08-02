@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".IntroActivity"
     android:weightSum="1"
-    android:background="#ffffd176"
+    android:background="#589cd0"
     >
 
 
