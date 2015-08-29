@@ -23,7 +23,7 @@ public class IntroActivity extends Activity {
 
         setContentView(R.layout.splash);
         h = new Handler();
-        h.postDelayed(irun, 4000);      //4초간 delay
+        h.postDelayed(irun, 3000);      //4초간 delay
 
     }
 

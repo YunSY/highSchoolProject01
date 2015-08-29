@@ -66,14 +66,12 @@ public class SpecialSchool extends Activity {
         tabHost.addTab(tabHost.newTabSpec("tag3").setIndicator("마이스터고").setContent(R.id.meister));
         tabHost.addTab(tabHost.newTabSpec("tag4").setIndicator("예고/체고").setContent(R.id.art));
 
-
         for (int i=0; i<tabHost.getTabWidget().getChildCount(); i++) {
             LinearLayout relLayout = (LinearLayout) tabHost.getTabWidget().getChildAt(i);
             TextView tv = (TextView) relLayout.getChildAt(1);
             tv.setTextColor(Color.parseColor("#FFFFFF"));
             tv.setTextSize(13.0f);
         }
-
 
         //tabHost.getCurrentTab()
 
@@ -90,6 +88,7 @@ public class SpecialSchool extends Activity {
                 TextView tv = (TextView)arg1;
                 Intent intent = new Intent(SpecialSchool.this, Information.class);
                 intent.putExtra("select", tv.getText().toString());
+                intent.putExtra("type", "특목고");
                 startActivity(intent);
 
 
@@ -107,6 +106,7 @@ public class SpecialSchool extends Activity {
                 TextView tv = (TextView)arg1;
                 Intent intent = new Intent(SpecialSchool.this, Information.class);
                 intent.putExtra("select", tv.getText().toString());
+                intent.putExtra("type", "특목고");
                 startActivity(intent);
             }
         });
@@ -122,6 +122,7 @@ public class SpecialSchool extends Activity {
                 TextView tv = (TextView)arg1;
                 Intent intent = new Intent(SpecialSchool.this, Information.class);
                 intent.putExtra("select", tv.getText().toString());
+                intent.putExtra("type", "특목고");
                 startActivity(intent);
             }
         });
@@ -137,6 +138,7 @@ public class SpecialSchool extends Activity {
                 TextView tv = (TextView)arg1;
                 Intent intent = new Intent(SpecialSchool.this, Information.class);
                 intent.putExtra("select", tv.getText().toString());
+                intent.putExtra("type", "특목고");
                 startActivity(intent);
             }
         });

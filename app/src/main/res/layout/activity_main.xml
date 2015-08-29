@@ -69,7 +69,7 @@
                 android:layout_marginLeft="40dp"
                 android:clickable="true"
                 android:onClick="selectSchool"
-                android:text="일반고"
+                android:text="고등학교"
                 android:background="#589cd0"
                 />
 

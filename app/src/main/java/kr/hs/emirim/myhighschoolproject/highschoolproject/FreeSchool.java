@@ -70,6 +70,7 @@ public class FreeSchool extends Activity {
                 TextView tv = (TextView)arg1;
                 Intent intent = new Intent(FreeSchool.this, Information.class);
                 intent.putExtra("select", tv.getText().toString());
+                intent.putExtra("type", "자율고");
                 startActivity(intent);
 
 
@@ -87,6 +88,7 @@ public class FreeSchool extends Activity {
                 TextView tv = (TextView) arg1;
                 Intent intent = new Intent(FreeSchool.this, Information.class);
                 intent.putExtra("select", tv.getText().toString());
+                intent.putExtra("type", "자율고");
                 startActivity(intent);
             }
         });

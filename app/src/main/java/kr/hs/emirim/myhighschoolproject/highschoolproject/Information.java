@@ -4,11 +4,13 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.content.res.XmlResourceParser;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.xmlpull.v1.XmlPullParser;
@@ -29,28 +31,70 @@ public class Information extends Activity {
             + "&svcType=api&svcCode=SCHOOL&gubun=high_list&sch1=100364";
     */
 
-    private String data_link;
+    private String data_link, text_address, text_major;
+    private String text_id;
+    private String type;
 
     private TextView nameTv, addressTv, majorTv;
     private ImageButton linkBut;
+    private ImageView img, logo;
     private String personXMLString;
-
+    private int xmlFile;
+    private String schName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.school_information);
+
+        boolean set = true;
 
         nameTv = (TextView) findViewById(R.id.school_name);
         addressTv = (TextView) findViewById(R.id.text_address);
         majorTv = (TextView) findViewById(R.id.text_major);
         linkBut = (ImageButton) findViewById(R.id.but_link);
 
+        img = (ImageView)findViewById(R.id.img);
+        logo = (ImageView) findViewById(R.id.logo);
 
         Intent intent = getIntent();
-        String name = intent.getStringExtra("select");
-        nameTv.append(name);
+        schName = intent.getStringExtra("select");
 
-        xmlParsing(name);
+        type = intent.getStringExtra("type");
+        if(type.equals("특목고")) {
+            xmlFile = R.xml.special;
+            set = true;
+        }
+        else if(type.equals("자율고")) {
+            xmlFile = R.xml.free;
+            set = false;
+        }
+        else if(type.equals("특성화고")) {
+            xmlFile = R.xml.major;
+            set = true;
+        }
+        nameTv.append(schName);
+
+        //xml 파싱
+        xmlParsing(schName);
+
+        addressTv.append(text_address);
+        if(set)
+            majorTv.append(text_major);
+        else
+            majorTv.append("정보 없음");
+
+        String img1 =  "ab" + text_id;
+        String img2 =  "a" + text_id;
+
+
+        String resName1 = "@drawable/" + img1;
+        String resName2 = "@drawable/" + img2;
+        String packName = this.getPackageName(); // 패키지명
+        int logoID = getResources().getIdentifier(resName1, "drawable", packName);
+        int schoolID = getResources().getIdentifier(resName2, "drawable", packName);
+
+        logo.setImageResource(logoID);
+        img.setImageResource(schoolID);
         //new DownloadWepPage().execute(url);
 
     }
@@ -62,13 +106,16 @@ public class Information extends Activity {
 
     public void xmlParsing(String name) {
         XmlResourceParser parser = null;
-        parser = getResources().getXml(R.xml.special);
+        parser = getResources().getXml(xmlFile);
 
-        int type = 0;
+        addressTv.setText("");
+        majorTv.setText("");
+
         boolean bSet = false;
         boolean link = false, region = false, address = false, major = false;
-        boolean allSet = false;
-        boolean info = false;
+        boolean allSet = true;
+        boolean setId = false, temp = true, temp2 = true;
+
 
         try {
 
@@ -80,12 +127,14 @@ public class Information extends Activity {
                 } else if (eventType == XmlPullParser.START_TAG) {
                     String tag_name = parser.getName();
 
-                    if(tag_name.equals("schoolName")){
+                    if(tag_name.equals("id")){
+                        setId = true;
+                    }
+                    else if(tag_name.equals("schoolName")){
+                        allSet = true;
                         bSet = true;
                     }else if(tag_name.equals("link")){
                         link = true;
-                    }else if(tag_name.equals("region")){
-                        region = true;
                     }else if(tag_name.equals("address")){
                         address = true;
                     }else if(tag_name.equals("major")){
@@ -100,53 +149,45 @@ public class Information extends Activity {
 
                 } else if (eventType == XmlPullParser.TEXT) {
                     String data = parser.getText();
+
+
+                    if(setId && temp && temp2)
+                    {
+                        text_id = data;
+                        setId = false;
+                    }
                     if(bSet){
 
-                        if(data.equals(name)) {
-                            allSet = true;
-                        }
-                        else {
-
+                        if(!data.equals(name)) {
+                            allSet = false;
+                            temp = true;
+                        }else{
+                            temp = false;
+                            temp2 = false;
                         }
                         bSet = false;
                     }
-                    if(allSet) {
-                        ///String tag_name = parser.getName();
-                        //String data2 = parser.getText();
-                        /*if (tag_name.equals("address")) {
-                            addressTv.append(data);
-                        } else if (tag_name.equals("link")) {
-                            data_link = data;
-                        } else if (tag_name.equals("major")) {
-                            if (data.equals("null")) {
-                                majorTv.append("정보 없음");
-                            } else {
-                                majorTv.append(data);
-                            }
-                        }*/
-                        //info = false;
 
-                        if(address){
-                            data = parser.getText();
-                            addressTv.append(data);
-                            address = false;
-                        }else if(major){
-                            data = parser.getText();
-                            if(data.equals("null")){
-                                majorTv.append("정보 없음");
-                            }else {
-                                data = parser.getText();
-                                majorTv.append(data);
-                            }
-                            major = false;
-                        }else if(link){
+
+                    if(allSet)
+                    {
+                        if(link){
                             data = parser.getText();
                             data_link = data;
                             link = false;
+                        }if(address){
+                            data = parser.getText();
+                            text_address = data;
+                            address = false;
+                        }else if(major) {
+                            data = parser.getText();
+                            if (!data.equals("null")) {
+                                text_major = data;
+                            } else {
+                                text_major = "정보 없음";
+                            }
+                            major = false;
                         }
-
-                        allSet = false;
-
                     }
 
 
