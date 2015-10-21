@@ -49,6 +49,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/list_foreign"
                         android:clickable="true"
+
                     />
 
 

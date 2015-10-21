@@ -42,7 +42,8 @@ public class MainActivity extends Activity {
         switch (id)
         {
             case R.id.but_special:
-                intent = new Intent(this, SpecialSchool.class);
+                intent = new Intent(this, Temp_Special.class);
+                //intent = new Intent(this, SpecialSchool.class);
                 startActivity(intent);
                 break;
             case R.id.but_major:

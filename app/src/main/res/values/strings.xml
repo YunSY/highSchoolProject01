@@ -12,9 +12,13 @@
     <string name="title_activity_infromation">Infromation</string>
     <string name="title_activity_special_school2">SpecialSchool2</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">예고/국제고</string>
+    <string name="title_section2">과학고</string>
+    <string name="title_section3">마이스터고</string>
+    <string name="title_section4">예고/체고</string>
     <string name="title_activity_temp">Temp</string>
+    <string name="title_activity_temp__special">Temp_Special</string>
+    <string name="title_activity_list_view01">ListView01</string>
+    <string name="title_activity_list02__science">List02_Science</string>
 
 </resources>
